@@ -27,8 +27,8 @@ RUN curl -fL https://github.com/krallin/tini/releases/download/v0.5.0/tini-stati
 # SET Jenkins Environment Variables
 ENV JENKINS_HOME /var/jenkins_home
 ENV JENKINS_SLAVE_AGENT_PORT 50000
-ENV JENKINS_VERSION 1.625.2
-ENV JENKINS_SHA 395fe6975cf75d93d9fafdafe96d9aab1996233b
+ENV JENKINS_VERSION 2.32.1
+ENV JENKINS_SHA 1b65dc498ba7ab1f5cce64200b920a8716d90834
 ENV JENKINS_UC https://updates.jenkins-ci.org
 ENV COPY_REFERENCE_FILE_LOG $JENKINS_HOME/copy_reference_file.log
 ENV JAVA_OPTS="-Xmx8192m"
